@@ -1,0 +1,35 @@
+[
+    {
+        "type": "html",
+        "value": "Client Management"
+    },
+    {
+        "type": "input",
+        "name": "clientName",
+        "label": "Client Name",
+        "required": true
+    },
+    {
+        "type": "input",
+        "name": "email",
+        "label": "Email",
+        "required": true
+    },
+    {
+        "type": "table",
+        "columns": [
+            {
+                "key": "name",
+                "label": "Client Name"
+            },
+            {
+                "key": "email",
+                "label": "Email"
+            },
+            {
+                "key": "status",
+                "label": "Status"
+            }
+        ]
+    }
+]
