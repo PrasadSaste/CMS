@@ -33,20 +33,11 @@ app.get("/", (req, res) => {
 
 
 // Routes
-app.use(
-    "/api/auth",
-    authRoutes
-);
+app.use("/api/auth",authRoutes);
 
-app.use(
-    "/api/clients",
-    clientRoutes
-);
+app.use("/api/clients",clientRoutes);
 
-app.use(
-    "/api/schema",
-    schemaRoutes
-);
+app.use("/api/schema",schemaRoutes);
 
 
 const PORT = process.env.PORT || 5000;
