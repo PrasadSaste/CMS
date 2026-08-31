@@ -18,7 +18,7 @@
 
 The seed script creates a test admin user.
 
-Email: admin@example.com
+username:Admin
 Password: Admin@123
 
 The password is hashed before it is stored in MongoDB.
