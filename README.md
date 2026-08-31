@@ -102,7 +102,7 @@ project/
 │   ├── middleware/
 │   ├── models/
 │   ├── routes/
-│   ├── server.js
+│   ├── app.js
 │   └── .env.example
 │
 ├── frontend/
